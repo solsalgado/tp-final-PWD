@@ -1,0 +1,134 @@
+/* @import url("general.css"); */
+
+/* General */
+
+.texto-titulo {
+    text-shadow: 3px 4px 6px #111;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.active {
+    display: flex;
+}
+
+#content__productos {
+    min-height: 100vh;
+}
+
+hr {
+    border: 1px solid rgb(255, 149, 0);
+    margin: 25px auto;
+}
+
+/* tarjetas productos */
+
+.tarjetas-productos {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 6px #111;
+    margin: 20px;
+    float: left;
+    transition: all 0.3s;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.tarjeta-producto__info p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.tarjeta-producto__imagen img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tarjetas-productos:hover {
+    transform: scale(1.05);
+}
+
+/* Contador Carrito */
+
+#contador__carrito {
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 126, 158);
+    line-height: 0em;
+    width: 100%;
+}
+
+#total-Compra {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color:  rgb(44, 54, 255);
+    text-align: center;
+    border: 2px solid  rgb(44, 54, 255);
+}
+
+/* Detalle */
+
+#content__info__detalle p {
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 5px #111;
+}
+
+.modal-content{
+    background-color: rgb(70, 70, 70);
+}
+
+#nombre__detalle {
+    margin: 0 0 20px 50px;
+    color: #33509a;
+    font-size: 40px;
+}
+
+#precio__detalle {
+    color: rgb(44, 54, 255);
+    font-size: 30px;
+    border: 2px solid rgb(160, 160, 160);
+    box-shadow: 1px 2px 8px #111;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    margin-top: 140px;
+    
+}
+
+.container {
+    
+
+    align-items: center; /* Centra verticalmente */
+    text-align: center;
+
+}
